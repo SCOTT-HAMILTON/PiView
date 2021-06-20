@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PiView</string>
+    <string name="settingsPageTab_text">Settings</string>
+    <string name="mainPageTab_text">Converter</string>
+    <string name="permission_request_rationale">PiView needs to access your external storage to save the converted pdf file to disk</string>
+    <string name="web_service_address_key" translatable="false">web_service_address</string>
+    <string name="default_web_service_address" translatable="false">https://192.168.1.23/unoconv/pdf</string>
+    <string name="web_service_address_preference_title">Web Service Address (with the schema)</string>
+    <string name="web_service_port_key" translatable="false">web_service_port</string>
+    <string name="web_service_port_preference_title">Web Service port</string>
+    <string name="debugTextViewPreamble">"Logs :\n"</string>
+    <string name="selectButtonFile_text">Select a file</string>
+    <string name="open_pdf_file_text">Open File</string>
+    <string name="conversion_succeed_info_text">File converted successfully</string>
+    <string name="conversion_failed_info_text">Conversion failed</string>
+    <string name="open_action_text">Open</string>
+    <string name="retry_action_text">Retry</string>
+
+    <string-array name="supported_mime_types">
+        <item>application/vnd.oasis.opendocument.text</item>
+            <!-- for .odt -->
+        <item>application/vnd.openxmlformats-officedocument.wordprocessingml.document</item>
+            <!-- for .docx -->
+        <item>application/msword</item>
+            <!-- for .doc -->
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/default_web_service_address"
+        android:key="@string/web_service_address_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/web_service_address_preference_title" />
+    <com.sample.piview.NumberPickerPreference
+        android:key="@string/web_service_port_key"
+        android:title="@string/web_service_port_preference_title"
+        android:defaultValue="80" />
+</PreferenceScreen>

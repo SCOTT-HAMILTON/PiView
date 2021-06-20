@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PiView</string>
+    <string name="settingsPageTab_text">Paramètres</string>
+    <string name="mainPageTab_text">Convertisseur</string>
+    <string name="permission_request_rationale">PiView a besoin d\'accéder à votre stockage externe pour pouvoir sauvegarder le pdf converti</string>
+    <string name="debugTextViewPreamble">"Journaux :
+"</string>
+    <string name="selectButtonFile_text">Sélectionner un fichier</string>
+    <string name="web_service_address_preference_title">Adresse du WebService (schéma inclus)</string>
+    <string name="web_service_port_preference_title">Port du WebService</string>
+    <string name="open_pdf_file_text">Ouvrir le fichier</string>
+    <string name="conversion_succeed_info_text">Fichier converti avec succès</string>
+    <string name="conversion_failed_info_text">Échec de la conversion</string>
+    <string name="open_action_text">Ouvrir</string>
+    <string name="retry_action_text">Réessayer</string>
+</resources>
