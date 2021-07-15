@@ -23,5 +23,7 @@
             <!-- for .docx -->
         <item>application/msword</item>
             <!-- for .doc -->
+        <item>*/*</item>
+            <!-- for debugging -->
     </string-array>
 </resources>

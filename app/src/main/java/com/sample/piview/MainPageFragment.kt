@@ -56,6 +56,10 @@ class MainPageFragment : Fragment() {
         ) {
             uri: Uri? ->
             println("returned Uri : $uri")
+            uri?.run {
+                appendMessageToDebugView(
+                    "File MimeType is: ${context?.contentResolver?.getType(this)}")
+            }
             if (uri != null) {
                 lastUri = uri
                 (activity as? MainActivity)?.convertUriToPdf(uri)
