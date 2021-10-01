@@ -9,10 +9,10 @@ PiView is the Android client app for the Unoconv Web Service. Once the [Unoconv 
 ## Screens
 
 **First Page**
-![ScreenFirstPage](https://user-images.githubusercontent.com/24496705/122684820-15aa8480-d208-11eb-9cbe-9204d0c1ccc5.jpg)
+![ScreenFirstPage](https://user-images.githubusercontent.com/24496705/135604922-a6e45147-2b4f-48df-b920-356b7bf93bdc.jpeg)
 
-**Second Page**
-![ScreenSecondPage](https://user-images.githubusercontent.com/24496705/122684821-18a57500-d208-11eb-8b79-43f1da350d02.jpg)
+**Settings**
+![SettingsPage](https://user-images.githubusercontent.com/24496705/135603727-d2688c57-d43f-4bc8-b2da-b48aa8588a5c.gif)
 
 ## Building
 This project is configured with Android Studio
